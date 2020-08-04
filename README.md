@@ -1,6 +1,6 @@
-# Browser Tab
+# Browser LiveView Tab
 
-Browser Tab if a extension for opening site page in VSCode!
+Browser LiveView Tab if a extension for opening site page in VSCode!
 
 ## Extension Settings
 
