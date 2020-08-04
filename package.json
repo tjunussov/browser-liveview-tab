@@ -1,26 +1,26 @@
 {
-  "name": "browser-tab",
-  "displayName": "browser-tab",
-  "description": "Open Broser Tab in VSCode",
+  "name": "browser-liveview-tab",
+  "displayName": "browser-liveview-tab",
+  "description": "Open Brwoser LiveView Tab in VSCode",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DizoftTeam/browser-tab.git"
+    "url": "https://github.com/tjunussov/browser-liveview-tab.git"
   },
-  "homepage": "https://github.com/DizoftTeam/browser-tab/blob/master/README.md",
-  "publisher": "DIZOFT",
+  "homepage": "https://github.com/tjunussov/browser-liveview-tab/blob/master/README.md",
+  "publisher": "TIMTJEYJUN",
   "engines": {
     "vscode": "^1.25.0"
   },
   "author": {
-    "email": "ruslan.mahin1@gmail.com",
-    "name": "Ruslan Makhin (WiRight)"
+    "email": "tjunussov@gmail.com",
+    "name": "Timur Junussov"
   },
   "maintainers": [
     {
-      "email": "ruslan.mahin1@gmail.com",
-      "name": "Ruslan Makhin (WiRight)"
+      "email": "tjunussov@gmail.com",
+      "name": "Timur Junussov"
     }
   ],
   "galleryBanner": {
@@ -37,14 +37,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.browsertab"
+    "onCommand:extension.browserliveviewtab"
   ],
   "main": "./out/extension",
   "contributes": {
     "commands": [
       {
-        "command": "extension.browsertab",
-        "title": "Open Browser Tab"
+        "command": "extension.browserliveviewtab",
+        "title": "Open Browser LiveView Tab"
       }
     ]
   },
@@ -61,8 +61,5 @@
     "tslint": "^5.8.0",
     "typescript": "^2.6.1",
     "vscode": "^1.1.34"
-  },
-  "dependencies": {
-    "axios": "0.18.1"
   }
 }
