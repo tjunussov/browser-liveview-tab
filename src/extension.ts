@@ -3,28 +3,8 @@
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-  context.subscriptions.push(
-    vscode.commands.registerCommand('catCoding.start', () => {
-      // Create and show panel
-      const panel = vscode.window.createWebviewPanel(
-        'catCoding',
-        'Cat Coding',
-        vscode.ViewColumn.One,
-        {}
-      );
-
-      // And set its HTML content
-      
-    })
-  );
-}
-
-
-
-
-export function activate(context: vscode.ExtensionContext) {
   // TODO: collect all errors and send feedback
-  const disposable = vscode.commands.registerCommand('extension.browsertab', () => {
+  const disposable = vscode.commands.registerCommand('extension.browserliveview', () => {
     vscode.window.showInputBox({
       prompt: 'Enter a site url. Example: http://localhost',
       value: 'http://',
